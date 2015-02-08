@@ -1,0 +1,124 @@
+/* Space out content a bit */
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  background: #002733;
+  
+}
+.navbar-default, .container-fluid {
+  background-color: #002733;
+  border-color: #002733
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.color-gray{
+  background: #eee;
+  height: 150px;
+}
+.altura{
+  margin-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 5px solid #eee;
+}
+.caption{
+  text-align: center;
+}
+.caption h4{
+  text-transform: uppercase;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+/*@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}*/
+.imagenes-marge{
+  margin: 0px;
+  padding: 0px;
+}
+.background-bio{
+  background: #c2ad82;
+}
+.background-bio p{
+  color: #fff;
+}
+.imagenes-posision{
+  position: relative;
+  top: -55px;
+}
+.carousel-inner > .item > img{
+  width: 100% !important;
+}
+.caption h4{
+  color: #333;
+}
+.back-img{
+  background: url('../images/wall-brick.png');
+  text-align: center;
+}
+.margin-alutas-textil{
+  margin: 20px 0px;
+}
+.margin-alutas-textil img{
+  cursor: pointer;
+}
+.foto-gab{
+  margin: 40px 0px;
+}
+.margin-abajo{
+  margin-bottom: 40px;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  
+}
