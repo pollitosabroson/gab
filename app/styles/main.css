@@ -119,6 +119,18 @@
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  
+@media screen and (max-width: 768px) {
+  .carousel-inner > .item > img{
+    width: 100% !important;
+    height: auto !important;
+  }
+  .carousel-inner > .item > .back-img > img{
+   max-height: 225px !important;
+  }
+}
+.carousel-indicators li {
+  border: 1px solid #000 !important;
+}
+.carousel-indicators .active {
+  background-color: #000 !important;
 }
