@@ -78,4 +78,9 @@ angular.module('gaboApp')
 				}
 			};
 		}
+		$('#myAffix').affix({
+			offset: {
+				top: 100,
+			}
+		})
 	});

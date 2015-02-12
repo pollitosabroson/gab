@@ -29,6 +29,10 @@
   background: #eee;
   height: 150px;
 }
+.color-gray img{
+  height: 100px;
+  margin-top: 23px;
+}
 .altura{
   margin-top: 40px;
   padding-bottom: 60px;
@@ -117,6 +121,13 @@
 .marketing p + h4 {
   margin-top: 28px;
 }
+.content-foto-gab{
+  text-align: center;
+  color: #fff;
+}
+.content-foto-gab h1, .content-foto-gab strong{
+  font-weight: 700;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px) {
@@ -133,4 +144,7 @@
 }
 .carousel-indicators .active {
   background-color: #000 !important;
+}
+.navbar {
+  margin-bottom: 0px !important;
 }
