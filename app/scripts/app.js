@@ -45,6 +45,12 @@ angular
         controller: 'TextilCtrl',
         /*data: { requiredLogin: true }*/
       })
+      .state('home.logos',{
+        url: '/logos',
+        templateUrl: 'views/logos.html',
+        controller: 'TextilCtrl',
+        /*data: { requiredLogin: true }*/
+      })
 
     // $routeProvider
     //   .when('/', {
