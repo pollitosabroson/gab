@@ -48,7 +48,7 @@ angular.module('gaboApp')
     	},
     	{
     		'img': 'images/videos/hard-family.png',
-    		'url': 'https://www.hard-familyyoutube.com/watch?v=r4vNGMqQ4Qo'
+    		'url': 'https://www.youtube.com/watch?v=r4vNGMqQ4Qo'
     	},
     ]
   });
