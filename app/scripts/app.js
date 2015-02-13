@@ -48,7 +48,13 @@ angular
       .state('home.logos',{
         url: '/logos',
         templateUrl: 'views/logos.html',
-        controller: 'TextilCtrl',
+        controller: 'LogosCtrl',
+        /*data: { requiredLogin: true }*/
+      })
+      .state('home.videos',{
+        url: '/videos',
+        templateUrl: 'views/videos.html',
+        controller: 'VideosCtrl',
         /*data: { requiredLogin: true }*/
       })
 
