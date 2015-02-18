@@ -56,10 +56,8 @@ angular.module('gaboApp')
     	},
     ];
     $scope.ClickLogo = function(valor){
-    	console.log(valor)
-    	console.log(valor.image)
-    	$scope.slides = []
-    	$scope.slides.push({image: 'images/logos/logotipos-header.png'},{image: valor.image});
-    	console.log($scope.slides);
-    }
+    	$scope.slides = [];
+    	$scope.slides.push({image: valor.image},{image: 'images/logos/logotipos-header.png'});
+    	$("html, body").animate({ scrollTop: 0 }, "slow");
+    };
   });
