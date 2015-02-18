@@ -9,18 +9,19 @@
  */
 angular.module('gaboApp')
   .controller('VideosCtrl', function ($scope) {
+    $scope.videos = [];
     $scope.videos = [
     	{
     		'img': 'images/videos/riff-rat-hoodies-01.png',
-    		'url': 'https://www.youtube.com/watch?v=N87MooTaxHc'
+    		'url': 'https://www.youtube.com/watch?v=N87MooTaxHc',
     	},
     	{
     		'img': 'images/videos/grecia-monroc-01.png',
-    		'url': 'https://www.youtube.com/watch?v=vsZvGS9mwrg'
+    		'url': 'https://www.youtube.com/watch?v=vsZvGS9mwrg',
     	},
     	{
     		'img': 'images/videos/snapbacks-x-vlfmrk-01.png',
-    		'url': 'https://www.youtube.com/watch?v=JmnGYv6Irrg'
+    		'url': 'https://www.youtube.com/watch?v=JmnGYv6Irrg',
     	},
     	{
     		'img': 'images/videos/qr-01.png',
@@ -49,6 +50,6 @@ angular.module('gaboApp')
     	{
     		'img': 'images/videos/hard-family.png',
     		'url': 'https://www.youtube.com/watch?v=r4vNGMqQ4Qo'
-    	},
-    ]
+    	}
+    ];
   });
